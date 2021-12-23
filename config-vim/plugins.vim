@@ -25,7 +25,6 @@ Plug 'ryanoasis/vim-devicons'
 
 "ddc TABNINE)
 Plug 'Shougo/ddc.vim'
-Plug 'vim-denops/denops.vim'
 " Install your sources
 "Plug 'Shougo/ddc-around'
 " Install your filters
@@ -33,6 +32,7 @@ Plug 'vim-denops/denops.vim'
 "Plug 'Shougo/ddc-sorter_rank'
 "DENOS
 Plug 'vim-denops/denops.vim'
+
 
 "Airline
 Plug 'vim-airline/vim-airline'
@@ -57,6 +57,8 @@ Plug 'mhinz/vim-signify'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
+"GIt copilot plugin
+Plug 'github/copilot.vim'
 "Smooth Scrolling
 Plug 'psliwka/vim-smoothie'
 

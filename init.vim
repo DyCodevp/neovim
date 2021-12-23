@@ -25,6 +25,10 @@ set noswapfile
 set nobackup
 set undofile
 set cmdheight=1
+set statusline=%<%f\ %h%m%r%{kite#statusline()}%=%-14.(%l,%c%V%)\ %P
+set laststatus=2  " always display the status line
+let g:kite_auto_complete=1
+
 "SO de los archivos
 so ~/Appdata/local/nvim/config-vim/plugins.vim
 so ~/Appdata/local/nvim/config-vim/mappins.vim
@@ -45,6 +49,7 @@ let g:gruvbox_contrast_dark = "hard"
 "Cerrar tags automaticamente
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js,*.py'
 "-----------------------------------------------------------------
-"Ambiente virtual de python
-let g:python3_host_prog = ' C:\Users\dylan\.virtualenvs\nvim-uK8WQlMR'
-
+"Ambiente para interprete de python
+let g:python3_host_prog = 'C:\Program Files\Python310\python.exe' 
+"ambiente de deno
+let g:denops#deno = 'C:\ProgramData\chocolatey\bin\deno.exe'
